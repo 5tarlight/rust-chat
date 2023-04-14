@@ -6,4 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tokio = "1.27.0"
+tokio = { version = "1.27.0", features = ['full'] }
+futures-util = "0.3.28"
+tokio-tungstenite = "0.18.0"
+url = "2.3.1"
+futures-channel = "0.3.28"
