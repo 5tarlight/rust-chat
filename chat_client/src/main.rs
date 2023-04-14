@@ -10,7 +10,10 @@ use url::Url;
 async fn main() {
     let addr = env::args()
         .nth(1)
-        .unwrap_or_else(|| panic!("This program requires address in first argument"));
+        .unwrap_or_else(|| panic!("<address> <name>"));
+    // let username = env::args()
+    //     .nth(2)
+    //     .unwrap_or_else(|| panic!("<address> <name>"));
     let url = Url::parse(&addr).unwrap();
 
     let (stdin_tx, stdin_rx) = futures_channel::mpsc::unbounded();
