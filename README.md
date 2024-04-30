@@ -28,6 +28,6 @@ cd chat_client
 cargo run ws://localhost:8080
 ```
 
-You can use your own WebSocket URL instead of `ws://localhost:8008`
+You can use your own WebSocket URL instead of `ws://localhost:8080`
 
 3. Chat
