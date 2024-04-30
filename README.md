@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/45203447/232058729-c1fa460b-7739-4e74-
 
 ## Requirements
 
-Love of Rust
+Love and enthusiasm for Rust
 
 ## Execution
 
